@@ -1,7 +1,6 @@
 const supertest = require("supertest");
 const server = require('../api/server')
 const db = require('../database/dbConfig');
-const { expectCt } = require("helmet");
 
 describe("Auth Tests", () => {
   //empty users table before each test
